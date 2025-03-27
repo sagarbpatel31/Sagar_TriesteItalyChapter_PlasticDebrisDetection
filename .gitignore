@@ -49,3 +49,4 @@ logs/
 # Ignore environment variables
 .env
 .env.*
+omdena/

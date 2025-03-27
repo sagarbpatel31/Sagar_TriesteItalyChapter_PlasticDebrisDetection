@@ -1,0 +1,7 @@
+
+sentinelhub
+openeo
+getpass
+numpy
+pandas
+xarray

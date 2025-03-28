@@ -1,7 +1,9 @@
-
 sentinelhub
 openeo
-getpass
 numpy
 pandas
 xarray
+netcdf4
+rasterio
+geopandas
+matplotlib

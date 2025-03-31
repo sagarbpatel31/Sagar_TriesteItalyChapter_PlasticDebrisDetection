@@ -12,9 +12,9 @@ dataclasses-json==0.6.7
 debugpy==1.8.13
 decorator==5.2.1
 Deprecated==1.2.18
+et_xmlfile==2.0.0
 executing==2.2.0
 fonttools==4.56.0
-git-lfs==1.6
 idna==3.10
 ipykernel==6.29.5
 ipython==9.0.2
@@ -32,6 +32,7 @@ netCDF4==1.7.2
 numpy==2.2.4
 oauthlib==3.2.2
 openeo==0.39.1
+openpyxl==3.1.5
 packaging==24.2
 pandas==2.2.3
 parso==0.8.4
@@ -47,6 +48,7 @@ pyparsing==3.2.3
 pyproj==3.7.1
 pystac==1.11.0
 python-dateutil==2.9.0.post0
+python-dotenv==1.1.0
 pytz==2025.2
 pyzmq==26.3.0
 requests==2.32.3
@@ -67,5 +69,6 @@ tzdata==2025.2
 urllib3==2.3.0
 utm==0.8.1
 wcwidth==0.2.13
+wget==3.2
 wrapt==1.17.2
 xarray==2025.3.0

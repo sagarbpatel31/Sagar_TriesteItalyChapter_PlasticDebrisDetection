@@ -31,7 +31,7 @@ logs/
 *.log
 *.tmp
 *.bak
-
+_*.ipynb
 # Ignore compiled files
 *.o
 *.so

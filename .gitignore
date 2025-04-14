@@ -6,7 +6,7 @@ data/
 kaggle_dataset/
 *.tsv
 *.xls
-
+SAFE/P*/
 
 # Ignore model files
 models/

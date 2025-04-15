@@ -1,4 +1,4 @@
-# 📥 Bitch SAFE Files Download Report
+# 📥 Batch SAFE Files Download Report
 
 ## 📊 Summary
 

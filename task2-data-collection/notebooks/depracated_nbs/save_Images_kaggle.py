@@ -63,7 +63,7 @@ def create_kaggle_dataset_from_folder(
     # Create or version the dataset
     if not any((folder_path / f).exists() for f in ["dataset-metadata.json", "dataset-metadata.yml"]):
         print("No metadata found, initializing dataset.")
-        subprocess.run(["kaggle", "datasets", "init", "-p", str(folder_path)])
+        subprocess.run(["kaggle", "datasets", "init", "-u", str(folder_path)])
 
     try:
         subprocess.run([
@@ -82,6 +82,6 @@ def create_kaggle_dataset_from_folder(
 # Example call to the above function
 create_kaggle_dataset_from_folder(
     folder_path="/Users/sara_mac/Desktop/projects/plastic_detection/Sentinel2PlasticDetectionProject/task2-data-collection/kaggle_dataset/Po_River_July_2019",
-    title="Po River July 2019: 4-band Sentinel2",
+    title="Litter Rows Dataset for ML",
     dataset_id="sarahajbane/litter-windrows"
 )

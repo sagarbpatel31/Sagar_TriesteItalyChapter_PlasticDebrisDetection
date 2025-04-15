@@ -5,9 +5,10 @@
 data/
 kaggle_dataset/
 *.tsv
-*.json
 *.xls
-*.xlsx
+*.zip
+*.nc
+
 
 # Ignore model files
 models/

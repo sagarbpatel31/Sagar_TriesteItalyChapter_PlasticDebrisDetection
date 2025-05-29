@@ -1,5 +1,38 @@
 # 📥 Batch SAFE Files Download Report
 
+## Progress Update
+
+
+### 🛰️ Sentinel-2 Data Summary for North_Adriatic_tile
+
+| 🗂️ Batch Name | 🛰️ Satellite Type | 📅 From         | 📅 To           | 📦 Number of SAFE Files | 💾 Estimated Size |
+| ---------------- | ------------------- | --------------- | --------------- | -------------- | ----------------- |
+| [Batch_01](https://www.kaggle.com/datasets/sarahajbane/litter-windrows-batch-1)   ✅       |  S2A_MSIL1C         | 2015-07-04   | 2016-10-17   | 30                       | 21 GB 💽       |
+| [Batch_02](https://www.kaggle.com/datasets/sarahajbane/litter-windrows-batch-027)  ✅        | S2A_MSIL1C          | 2017-02-20      | 2017-10-08      | 17                      | 11 GB 💽  |
+| [Batch_03](https://www.kaggle.com/datasets/sarahajbane/litter-windrows-batch-03)     ✅      | S2A_MSIL1C          | 2018-03-27      | 2018-11-12      | 27                      | 19 GB 💽  |
+| [Batch_04](https://www.kaggle.com/datasets/sarahajbane/litter-windrows-batch-4)   ✅    | S2A_MSIL1C      | 2019-02-13  | 2019-10-11 | 17                      | 11.7 GB 💽  |
+| [Batch_05](https://www.kaggle.com/datasets/sarahajbane/litter-windrows-batch-5)    ✅   | S2A_MSIL1C      | 2020-03-16      | 2020-11-04    | 18                      | 12.35 GB 💽  |
+| [Batch_06](https://www.kaggle.com/datasets/sarahajbane/litter-windrows-batch-6)    ✅    | S2A_MSIL1C          | 2021-03-01      | 2021-08-18      | 18                      | 12.1 GB 💽  |
+| [Batch_07](https://www.kaggle.com/datasets/sarahajbane/litter-windrows-batch-07)   ✅      | S2B_MSIL1C          | 2017-07-05      | 2018-11-17      | 37                      | 25 GB 💽  |
+| [Batch_08](https://www.kaggle.com/datasets/sarahajbane/litter-windrows-batch-8) ✅        | S2B_MSIL1C          | 2019-02-08      | 2019-10-16      | 14                      | 9.4 GB 💽  |
+| [Batch_09](https://www.kaggle.com/datasets/sarahajbane/litter-windrows-batch-9)  ✅         | S2B_MSIL1C          | 2020-02-20      | 2020-11-19      | 21                      | 14.5 GB 💽  |
+| [Batch_10](https://www.kaggle.com/datasets/sarahajbane/litter-windrows-batch-10)    ✅     | S2B_MSIL1C          | 2021-03-29      | 2021-06-17      | 10                      |  6.97 GB 💽   |
+
+### 🛰️ Sentinel-2 Data Summary for Northern_Corsica_tile
+
+| 🗂️ Batch Name | 🛰️ Satellite Type | 📅 From    | 📅 To      | 📦 Number of SAFE Files | 💾 Estimated Size |
+| ---------------- | ------------------- | ---------- | ---------- | ----------------------- | ----------------- |
+| [Batch_11](https://www.kaggle.com/datasets/sarahajbane/litter-windrows-batch-11) ✅      | S2A_MSIL1C          | 2015-07-24 | 2021-06-22 | 18                      | 10.5 GB 💽  |
+| [Batch_12](https://www.kaggle.com/datasets/sarahajbane/litter-windrows-corsib)     ✅     | S2B_MSIL1C          | 2017-07-08 | 2020-08-01 | 8                       | 4.9 GB 💽   |
+
+### 🛰️ Sentinel-2 Data Summary for Calabria_tile
+
+| 🗂️ Batch Name | 🛰️ Satellite Type | 📅 From    | 📅 To      | 📦 Number of SAFE Files | 💾 Estimated Size |
+| ---------------- | ------------------- | ---------- | ---------- | ----------------------- | ----------------- |
+| [Batch_13](https://www.kaggle.com/datasets/sarahajbane/litter-windrows-batch-cala)   ✅       | S2A_MSIL1C          | 2015-08-14 | 2020-12-28 | 13                      | 6.1 GB 💽  |
+| [Batch_14](https://www.kaggle.com/datasets/sarahajbane/litter-windrows-batch-calb))    ✅      | S2B_MSIL1C          | 2017-07-09 | 2020-10-21 | 9                       | 6.21 GB 💽   |
+
+
 ## 📊 Summary
 
 The SAFE files were distributed based on the area of interest (AOI) tiles and satellite sources (S2A/S2B).
@@ -7,41 +40,41 @@ Each tile has been divided into batches by satellite and acquisition date to ens
 
 | Tile                  | Satellite | Number of SAFE Files |
 | --------------------- | --------- | -------------------- |
-| Po_River_Plume_tile   | S2A       | 127                  |
-| Po_River_Plume_tile   | S2B       | 82                   |
+| North_Adriatic_tile   | S2A       | 127                  |
+| North_Adriatic_tile   | S2B       | 82                   |
 | Northern_Corsica_tile | S2A       | 18                   |
 | Northern_Corsica_tile | S2B       | 8                    |
 | Calabria_tile         | S2A       | 13                   |
 | Calabria_tile         | S2B       | 9                    |
 
-### 🛰️ Sentinel-2 Data Summary for Po_River_Plume_tile
+### 🛰️ Sentinel-2 Data Summary for North_Adriatic_tile
 
-| 🗂️ Batch Name | 🛰️ Satellite Type | 📅 From         | 📅 To           | 📦 Number of SAFE Files | 💾 Estimated Size |
+| 🗂️ Batch Name | 🛰️ Satellite Type | 📅 From         | 📅 To           | 📦 Number of SAFE Files | 💾 Batch Size |
 | ---------------- | ------------------- | --------------- | --------------- | ----------------------- | ----------------- |
-| Batch_01         | S2A_MSIL1C          | 2015-07-04      | 2016-10-16      | 30                      | Maximum 27 GB 💽  |
-| Batch_02         | S2A_MSIL1C          | 2017-02-20      | 2017-10-08      | 17                      | Maximum 15 GB 💽  |
-| Batch_03         | S2A_MSIL1C          | 2018-03-27      | 2018-11-12      | 27                      | Maximum 24 GB 💽  |
-| Batch_04         | ~~S2A_MSIL1C~~     | ~~2019-02-13~~ | ~~2019-10-11~~ | 17                      | Maximum 15 GB 💽  |
-| Batch_05         | S2A_MSIL1C          | 2020-03-16      | 2020-11-04      | 18                      | Maximum 16 GB 💽  |
-| Batch_06         | S2A_MSIL1C          | 2021-03-01      | 2021-08-18      | 18                      | Maximum 16 GB 💽  |
-| Batch_07         | S2B_MSIL1C          | 2017-07-05      | 2018-11-17      | 37                      | Maximum 33 GB 💽  |
-| Batch_08         | S2B_MSIL1C          | 2019-02-08      | 2019-10-16      | 14                      | Maximum 12 GB 💽  |
-| Batch_09         | S2B_MSIL1C          | 2020-02-20      | 2020-11-19      | 21                      | Maximum 18 GB 💽  |
-| Batch_10         | S2B_MSIL1C          | 2021-03-29      | 2021-06-17      | 10                      | Maximum 9 GB 💽   |
+| Batch_01         | S2A_MSIL1C          | 2015-07-04      | 2016-10-16      | 30                      | 19.98 GB 💽  |
+| Batch_02         | S2A_MSIL1C          | 2017-02-20      | 2017-10-08      | 17                      | 11.08 GB 💽  |
+| Batch_03         | S2A_MSIL1C          | 2018-03-27      | 2018-11-12      | 27                      | 18.82 GB 💽  |
+| Batch_04         | S2A_MSIL1C          | 2019-02-13      | 2019-10-11      | 17                      | 11.71 GB 💽  |
+| Batch_05         | S2A_MSIL1C          | 2020-03-16      | 2020-11-04      | 18                      | 12.35 GB 💽  |
+| Batch_06         | S2A_MSIL1C          | 2021-03-01      | 2021-08-18      | 18                      | 12.15 GB 💽  |
+| Batch_07         | S2B_MSIL1C          | 2017-07-05      | 2018-11-17      | 37                      | 25.42 GB 💽  |
+| Batch_08         | S2B_MSIL1C          | 2019-02-08      | 2019-10-16      | 14                      | 9.38 GB 💽  |
+| Batch_09         | S2B_MSIL1C          | 2020-02-20      | 2020-11-19      | 21                      | 14.32 GB 💽  |
+| Batch_10         | S2B_MSIL1C          | 2021-03-29      | 2021-06-17      | 10                      | 6.97 GB 💽   |
 
 ### 🛰️ Sentinel-2 Data Summary for Northern_Corsica_tile
 
-| 🗂️ Batch Name | 🛰️ Satellite Type | 📅 From    | 📅 To      | 📦 Number of SAFE Files | 💾 Estimated Size |
+| 🗂️ Batch Name | 🛰️ Satellite Type | 📅 From    | 📅 To      | 📦 Number of SAFE Files | 💾 Batch Size |
 | ---------------- | ------------------- | ---------- | ---------- | ----------------------- | ----------------- |
-| Batch_11         | S2A_MSIL1C          | 2015-07-24 | 2021-06-22 | 18                      | Maximum 16 GB 💽  |
-| Batch_12         | S2B_MSIL1C          | 2017-07-08 | 2020-08-01 | 8                       | Maximum 7 GB 💽   |
+| Batch_11         | S2A_MSIL1C          | 2015-07-24 | 2021-06-22 | 18                      | 10.5 GB 💽  |
+| Batch_12         | S2B_MSIL1C          | 2017-07-08 | 2020-08-01 | 8                       | 4.86 GB 💽   |
 
 ### 🛰️ Sentinel-2 Data Summary for Calabria_tile
 
-| 🗂️ Batch Name | 🛰️ Satellite Type | 📅 From    | 📅 To      | 📦 Number of SAFE Files | 💾 Estimated Size |
+| 🗂️ Batch Name | 🛰️ Satellite Type | 📅 From    | 📅 To      | 📦 Number of SAFE Files | 💾 Batch Size |
 | ---------------- | ------------------- | ---------- | ---------- | ----------------------- | ----------------- |
-| Batch_13         | S2A_MSIL1C          | 2015-08-14 | 2020-12-28 | 13                      | Maximum 11 GB 💽  |
-| Batch_14         | S2B_MSIL1C          | 2017-07-09 | 2020-10-21 | 9                       | Maximum 8 GB 💽   |
+| Batch_13         | S2A_MSIL1C          | 2015-08-14 | 2020-12-28 | 13                      | 6.09 GB 💽  |
+| Batch_14         | S2B_MSIL1C          | 2017-07-09 | 2020-10-21 | 9                       | 6.21 GB 💽   |
 
 ---
 
@@ -60,7 +93,7 @@ This ensures no duplication and smooth coordination of tasks.
 
 ## 📦 Batch_01 info
 
-**Tile:** Po_River_Plume_tile | **Satellite:** S2A
+**Tile:** North_Adriatic_tile | **Satellite:** S2A
 **From:** 2015-07-04 | **To:** 2016-10-16 | **Files:** 30
 
 | ndex | SAFE FilenameI                                                    |
@@ -98,7 +131,7 @@ This ensures no duplication and smooth coordination of tasks.
 
 ## 📦 Batch_02 info
 
-**Tile:** Po_River_Plume_tile | **Satellite:** S2A
+**Tile:** North_Adriatic_tile | **Satellite:** S2A
 **From:** 2017-02-20 | **To:** 2017-10-08 | **Files:** 17
 
 | Index | SAFE Filename                                                     |
@@ -123,7 +156,7 @@ This ensures no duplication and smooth coordination of tasks.
 
 ## 📦 Batch_03 info
 
-**Tile:** Po_River_Plume_tile | **Satellite:** S2A
+**Tile:** North_Adriatic_tile | **Satellite:** S2A
 **From:** 2018-03-27 | **To:** 2018-11-12 | **Files:** 27
 
 | Index | SAFE Filename                                                     |
@@ -158,7 +191,7 @@ This ensures no duplication and smooth coordination of tasks.
 
 ## 📦 Batch_04 info
 
-**Tile:** Po_River_Plume_tile | **Satellite:** S2A
+**Tile:** North_Adriatic_tile | **Satellite:** S2A
 **From:** 2019-02-13 | **To:** 2019-10-11 | **Files:** 17
 
 | Index | SAFE Filename                                                     |
@@ -183,7 +216,7 @@ This ensures no duplication and smooth coordination of tasks.
 
 ## 📦 Batch_05 info
 
-**Tile:** Po_River_Plume_tile | **Satellite:** S2A
+**Tile:** North_Adriatic_tile | **Satellite:** S2A
 **From:** 2020-03-16 | **To:** 2020-11-04 | **Files:** 18
 
 | Index | SAFE Filename                                                     |
@@ -209,7 +242,7 @@ This ensures no duplication and smooth coordination of tasks.
 
 ## 📦 Batch_06 info
 
-**Tile:** Po_River_Plume_tile | **Satellite:** S2A
+**Tile:** North_Adriatic_tile | **Satellite:** S2A
 **From:** 2021-03-01 | **To:** 2021-08-18 | **Files:** 18
 
 | Index | SAFE Filename                                                     |
@@ -235,7 +268,7 @@ This ensures no duplication and smooth coordination of tasks.
 
 ## 📦 Batch_07 info
 
-**Tile:** Po_River_Plume_tile | **Satellite:** S2B
+**Tile:** North_Adriatic_tile | **Satellite:** S2B
 **From:** 2017-07-05 | **To:** 2018-11-17 | **Files:** 37
 
 | Index | SAFE Filename                                                     |
@@ -280,7 +313,7 @@ This ensures no duplication and smooth coordination of tasks.
 
 ## 📦 Batch_08 info
 
-**Tile:** Po_River_Plume_tile | **Satellite:** S2B
+**Tile:** North_Adriatic_tile | **Satellite:** S2B
 **From:** 2019-02-08 | **To:** 2019-10-16 | **Files:** 14
 
 | Index | SAFE Filename                                                     |
@@ -302,7 +335,7 @@ This ensures no duplication and smooth coordination of tasks.
 
 ## 📦 Batch_09 info
 
-**Tile:** Po_River_Plume_tile | **Satellite:** S2B
+**Tile:** North_Adriatic_tile | **Satellite:** S2B
 **From:** 2020-02-20 | **To:** 2020-11-19 | **Files:** 21
 
 | Index | SAFE Filename                                                     |
@@ -331,7 +364,7 @@ This ensures no duplication and smooth coordination of tasks.
 
 ## 📦 Batch_10 info
 
-**Tile:** Po_River_Plume_tile | **Satellite:** S2B
+**Tile:** North_Adriatic_tile | **Satellite:** S2B
 **From:** 2021-03-29 | **To:** 2021-06-17 | **Files:** 10
 
 | Index | SAFE Filename                                                     |
